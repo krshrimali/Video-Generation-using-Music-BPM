@@ -23,6 +23,15 @@ class ImgProcessing(object):
 		self.img_blur = cv2.blur(self.img, (kernel_size, kernel_size))
 
 	def zoom(self, ratio, what="in"):
+		'''
+		Note: Problems with pyrDown and pyrUp
+
+		|dstsize.width  * 2 - src.cols| <= 2
+		|dstsize.height * 2 - src.rows| <= 2
+		
+		Resource: https://stackoverflow.com/questions/43561835/error-with-pyrdown
+		'''
+
 		# height = int(percentage * self.img.shape[1])
 		# width = int(percentage * self.img.shape[0])
 		#  self.img_zoom = cv2.resize(self.img, (height, width), cv2.INTER_CUBIC)
