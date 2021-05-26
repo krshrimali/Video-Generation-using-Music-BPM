@@ -1,3 +1,5 @@
+**Note**: Something I wanted to do but couldn't complete. If you want to work together on this, create an issue or contact me at kushashwaravishrimali@gmail.com. Thanks!
+
 ## Sample on Song: "We are never ever getting back together"
 
 <img src="Images/bpm.PNG">BPM of the song: 86, Source: https://songbpm.com/</img>
